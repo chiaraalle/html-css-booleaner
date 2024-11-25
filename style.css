@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .pattern {
-    background-image: url(./imgs/pattern.png) ;
+    background-image: url(./img/pattern.png) ;
     background-color: rgb(6, 159, 230);
     border: 1px solid lightskyblue;
     height: 150px;
@@ -34,4 +34,5 @@ main {
     font-size: 12px;
     margin-bottom: 20px;
 }
+
 
