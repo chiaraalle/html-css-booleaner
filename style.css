@@ -28,7 +28,7 @@ main {
     color: rgb(6, 159, 230);
 }
 
-.text-photo {
+.name-photo {
     font-size: 12px;
     margin-bottom: 20px;
 }
@@ -63,7 +63,11 @@ tbody {
     background-color: white;
 }
 
-span {
-    color: rgb(150, 148, 148);
+.text {
+    font-size: 30px;
+    color: white;
+    position: absolute;
 }
+
+
 
