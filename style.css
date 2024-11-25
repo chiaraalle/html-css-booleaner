@@ -28,14 +28,13 @@ main {
     color: rgb(6, 159, 230);
 }
 
-.name-photo {
+.name{
     font-size: 12px;
     margin-bottom: 20px;
 }
 
 .item {
     border-collapse: collapse;
-    
 }
 
  td {
@@ -54,19 +53,44 @@ thead {
     color: white;
 }
 
+#first {
+    width: 25%;
+    text-align: left;
+}
+
+#second {
+    width: 25%;
+    text-align: left;
+}
+
 tbody {
     background-color:rgba(25, 219, 245, 0.781)
-
 }
 
 #row {
     background-color: white;
 }
 
+.photo{
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    height: 208px;
+    width: 312px;
+    margin-top: 10px;
+    
+}
+
+.image {
+    background-image: url(./img/graph.jpg);
+    background-size: cover;
+    height: 207px;
+    width: 311px;
+    margin-top: 10px;
+}
+
 .text {
     font-size: 30px;
     color: white;
-    position: absolute;
 }
 
 
