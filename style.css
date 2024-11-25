@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.pattern {
+    background-image: url(./imgs/pattern.png) ;
+    background-color: rgb(6, 159, 230);
+    border: 1px solid lightskyblue;
+    height: 150px;
+}
+
+.pattern img {
+    height: 200px;
+    width: 200px;
+    
+
+}
+
+main {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.title{
+    color: rgb(150, 148, 148);
+    margin-bottom: 20px;
+}
+
+#special-name{
+    color: rgb(6, 159, 230);
+}
+
+.text-photo {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
