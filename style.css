@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    /*padding: 0px; */
     box-sizing: border-box;
 }
 .pattern {
@@ -12,18 +13,20 @@
 .pattern img {
     height: 200px;
     width: 200px;
+    /*display: block; per togliere quel poco spazio che crea l'immagine*/
 }
 
 main {
     margin-left: 10px;
     margin-top: 10px;
+    /*h1 diamo un line-height:160%; che serve per non avere la scritta troppo attaccata */
 }
 
 .title{
     color: rgb(150, 148, 148);
     margin-bottom: 20px;
 }
-
+/* per li per avere i puntini che si vedono e lo spazio tra le righe metteremo margin: 10px 0px 10px 16; parte da su e va avanti come un orologio  */
 #special-name{
     color: rgb(6, 159, 230);
 }
@@ -93,5 +96,8 @@ tbody {
     color: white;
 }
 
+/* per esercizio bonus creare delle classi a header, main e footer e dare i seguenti valori width: 80%; margin: 0px */
+
+/* per debug: outline: 1px solid red*/
 
 
